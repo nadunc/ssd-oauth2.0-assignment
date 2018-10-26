@@ -3,25 +3,6 @@ session_start();
 
 include 'OAuth.php';
 
-
-//if (!isset($_SESSION['user_id'])) {
-//    $oauth = new OAuth();
-//
-//    echo "<a href='" . $oauth->getAuthorizationEndpointURI() . "'>Login with Facebook</a>";
-//} else {
-//
-////    echo $_SESSION['first_name'];
-////    echo "<br>";
-////    echo $_SESSION['last_name'];
-////    echo "<br>";
-////    echo "<img src='https://graph.facebook.com/".$_SESSION['user_id']."/picture?type=large'>";
-////    echo "<img src='https://graph.facebook.com/".$_SESSION['user_id']."/picture?width=500&height=500'>";
-//
-//
-//    echo "<img src='getsearchimg.php?name=" . $_SESSION['name'] . "'>";
-//
-//
-//}
 ?>
 
 
